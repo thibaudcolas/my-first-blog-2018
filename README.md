@@ -5,7 +5,10 @@ To get this project up and running,
 ```
 git clone git@github.com:thibaudcolas/my-first-blog.git
 cd my-first-blog
-virtualenv myvenv -p python3
+python3.6 -m venv myvenv
 source myvenv/bin/activate
+pip install --upgrade pip
 pip install django~=1.11.0
+python manage.py migrate
+python manage.py runserver
 ```
