@@ -14,3 +14,14 @@ pip install django~=1.11.0
 python manage.py migrate
 python manage.py runserver
 ```
+
+## Beyond Django, Wagtail
+
+http://docs.wagtail.io/en/v2.0.1/getting_started/integrating_into_django.html
+
+```sh
+source myvenv/bin/activate
+pip install wagtail~=2.0.0
+python manage.py migrate
+python manage.py runserver
+```
