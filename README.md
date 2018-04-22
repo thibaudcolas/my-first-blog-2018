@@ -25,3 +25,11 @@ pip install wagtail~=2.0.0
 python manage.py migrate
 python manage.py runserver
 ```
+
+### PythonAnywhere
+
+```
+cd ~/thibaudcolas.pythonanywhere.com
+workon thibaudcolas.pythonanywhere.com
+python manage.py collectstatic
+```
