@@ -2,6 +2,12 @@
 
 > This site is the end result of the [Django Girls tutorial](https://tutorial.djangogirls.org/).
 
+Dependencies:
+
+*   Python 3.6
+*   Django 1.11
+*   Wagtail 2.0
+
 To get this project up and running,
 
 ```sh
